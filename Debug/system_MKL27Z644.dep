@@ -1,0 +1,31 @@
+Debug/system_MKL27Z644.o: \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/startup/system_MKL27Z644.c \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\5.3.0\include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdint.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_default_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\features.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_intsup.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/fsl_device_registers.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/include/MKL27Z644.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/CMSIS/Include/core_cm0plus.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/CMSIS/Include/core_cmInstr.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/CMSIS/Include/core_cmFunc.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/startup/system_MKL27Z644.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/include/MKL27Z644_extension.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/include/MKL27Z644.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/include/fsl_bitaccess.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\stdlib.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\ieeefp.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\newlib.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\config.h \
+ c:\sysgcc\arm-eabi\lib\gcc\arm-eabi\5.3.0\include\stddef.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\reent.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\_ansi.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\_types.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\lock.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\sys\cdefs.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\machine\stdlib.h \
+ c:\sysgcc\arm-eabi\arm-eabi\sys-include\alloca.h \
+ C:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/platform/devices/MKL27Z644/include/MKL27Z644_features.h
