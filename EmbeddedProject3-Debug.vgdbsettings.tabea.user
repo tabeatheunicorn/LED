@@ -24,18 +24,8 @@
         <Plot>false</Plot>
       </LiveVariable>
       <LiveVariable>
-        <Expression>farbe1</Expression>
-        <Type>UInt8</Type>
-        <Enabled>true</Enabled>
-        <Breakpoint>
-          <ComparisonMode>Equals</ComparisonMode>
-          <Enabled>false</Enabled>
-        </Breakpoint>
-        <Plot>false</Plot>
-      </LiveVariable>
-      <LiveVariable>
-        <Expression>farbe2</Expression>
-        <Type>UInt8</Type>
+        <Expression>farbe11</Expression>
+        <Type>SInt32</Type>
         <Enabled>true</Enabled>
         <Breakpoint>
           <ComparisonMode>Equals</ComparisonMode>

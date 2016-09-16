@@ -56,8 +56,8 @@ void RGBinit()
 	TPM2_C1V = 0; //grün
 	TPM1_C1V = 0; //blau
 	
-	/*TPM1_POL |= TPM_POL_POL1_MASK;
-	TPM2_POL |= TPM_POL_POL0_MASK | TPM_POL_POL1_MASK;*/
+	TPM1_POL |= TPM_POL_POL1_MASK;
+	TPM2_POL |= TPM_POL_POL0_MASK | TPM_POL_POL1_MASK;
 
 
 }
@@ -94,6 +94,9 @@ void setzeZielfarbe(int r, int g, int b)
 int farbe1[3] = { 0,0,0 };
 int farbe2[3] = { 0,0,0 };
 int farbe3[3] = {0,0,0 }; 
+
+//Farbwerte ueberwachen
+int farbe11 = farbe1[0];
 
 void dreiFarbenFade()
 {
@@ -182,6 +185,7 @@ int anzdurch = 0;
 
 extern "C" void PORTA_IRQHandler() 
 {
+	fade_counter = 0;
 	if (anzdurch == 0)
 	{
 		anzdurch++;
@@ -230,6 +234,7 @@ extern "C" void PORTA_IRQHandler()
 
 extern "C" void PORTBCDE_IRQHandler()
 {
+	fade_counter = 0;
 	//setzeFarbe(255, 0, 0);
 	int ton1[3] = { rand() % 256, rand() % 256, rand() % 256 };
 	int ton2[3] = { rand() % 256, rand() % 256, rand() % 256 };

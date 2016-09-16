@@ -3,5 +3,5 @@
   C:\SysGCC\arm-eabi/bin/arm-eabi-g++.exe -o Debug/EmbeddedProject3.elf -Wl,-gc-sections  -TC:\Users\tabea\AppData\Local\VisualGDB\EmbeddedBSPs\arm-eabi\com.sysprogs.arm.freescale.kinetis_ksdk/KL27Z644/LinkerScripts/MKL27Z64xxx4_flash.lds  -mcpu=cortex-m0plus -mthumb   -Wl,--start-group Debug/startup.o Debug/vectors_KL27Z644.o Debug/system_MKL27Z644.o Debug/LEDBlink.o -lcompactcpp    -Wl,--end-group
   C:\SysGCC\arm-eabi/bin/arm-eabi-objcopy.exe -O binary Debug/EmbeddedProject3.elf Debug/EmbeddedProject3.bin
   ------------------- Memory utilization report -------------------
-  Used FLASH: 3936 bytes out of 62KB (6%)
-  Used RAM: 1144 bytes out of 16KB (6%)
+  Used FLASH: 4064 bytes out of 62KB (6%) [+24]
+  Used RAM: 1148 bytes out of 16KB (7%)
